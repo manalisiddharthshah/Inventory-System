@@ -1,0 +1,55 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+body:before{
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image:url('../img/carimg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+}
+.login-box input,button,textarea
+{
+    width:100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"],
+.login-box input[type="email"],
+.login-box input[type="password"],
+#address
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box label
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color:Red;
+}
+.login-box 
+{
+    box-shadow: 1px 1px 7px #666;
+    padding:20px;
+    margin-top:10%;
+}
+.login-box h1 
+{
+    margin: 0;
+    padding: 0 0 20px;
+    color:Red;
+    text-align: center;
+    text-transform: uppercase;
+}

@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        font-size: 20px;
+        overflow-x: hidden;
+    color: white;
+        font-family: 'Flamenco', cursive;
+    }
+    header{
+        background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../img/download.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    height: 100vh;
+    }
+.clearfix:after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+    }
+.row{
+        max-width: 1180px;
+    margin: 0 auto;
+    }
+.main-content-header{
+    width: 1180px;
+    padding:0 2%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    h1{
+    color: #fff;
+	font-size: 240%;
+        word-spacing: 5px;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: lighter;
+    }
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+        font-weight: lighter;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2;
+    }
+.btn-full{
+        background-color: transparent;
+    color: #bf55ec;
+	margin-right: 15px;
+    border: 1px solid #bf55ec;
+}
+.btn-full:hover{
+        background-color: #fff;
+}
+.btn-nav{
+        background-color: transparent;
+    color: #fff;
+	border: 1px solid #fff;
+}
+.btn-nav:hover{
+        background-color: #bf55ec;
+}
+	.main-content-header{
+    width:100%;
+    padding:0 2%;
+    }
+        .row {
+            width: 100%;
+            padding: 0 2%;
+        }
+        .mobile-icon {
+            display: inline-block;
+    color: #fff;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+	.btn-full{
+        margin-bottom: 20px;
+    }
+    h1{font-size: 180%;}
